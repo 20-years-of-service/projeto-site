@@ -3,9 +3,9 @@
     font-size: 16px;
 }
 
-header {
-    font-size: 18px;
-    background-color: aquamarine ;
+h1 {
+    font-size: 2em;
+    color: rgb(3, 80, 54) ;
 }
 
 body {
@@ -18,4 +18,20 @@ main {
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.377);
+}
+
+h2 {
+    font-size: 1.5em;
+    color:rgb(8, 124, 85) ;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue ;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blueviolet ;
 }
